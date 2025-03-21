@@ -1,0 +1,8 @@
+.ik-table{
+    border-collapse: collapse;
+}
+
+.ik-table th, .ik-table td{
+    border: 1px solid #333;
+    padding: 6px 12px;
+}
