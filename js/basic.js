@@ -767,7 +767,6 @@ newPrimeSelect(parseInt(newSelect.value));
 
 
 //New form data
-let formMain = document.getElementById('formMain');
 let formDataBtn = document.getElementById('formDataBtn');
 let formNewData = document.getElementById('formNewData');
 let formNewValue = document.querySelectorAll('.form-input');
@@ -808,7 +807,7 @@ async function JsonMainDatas(){
         for(let j = 0; j<jsonDataMain.length;j++){
             let tr = document.createElement('tr');
 
-            [jsonDataMain[j].userId, jsonDataMain[j].id, jsonDataMain[j].userId, jsonDataMain[j].body].forEach((x)=>{
+            [jsonDataMain[j].userId, jsonDataMain[j].id, jsonDataMain[j].title, jsonDataMain[j].body].forEach((x)=>{
                 let td = document.createElement('td');
                 td.innerHTML += x;
                 tr.appendChild(td);

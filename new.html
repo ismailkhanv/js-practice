@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice Page</title>
+    <style>
+        .table-view{
+            border: 1px solid #333;
+            border-collapse: collapse;
+        }
+        .table-view th,.table-view td{
+            border: 1px solid #333;
+            padding: 10px 14px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h3>Text display</h3>
+    <div id="text-display"></div>
+
+    <div class="textBtnChange">
+        <h3>Text change with click btn</h3>
+        <div class="textBtnChangeLabel">Hello <span id="textChange">Ismail</span></div>
+        <button onclick="textChange()" >Change Text</button>
+    </div>
+
+    <div class="arrayItemsCount">
+        <h3>Showing arrow Count with total of numbers</h3>
+        <div id="arrayCount"></div>
+        <div id="arrayitemsTotal"></div>
+    </div>
+
+    <div class="arrayFindMethod">
+        <div id="arrayFindNumbers"></div>
+        <div id="arrayFindResult"></div>
+    </div>
+
+
+    <div class="arrayFilterMethod">
+        <div id="arrayFilterNumbers"></div>
+        <input type="text" id="arrayFilterinputNumber" />
+        <button onclick="arrayFilter()">Find</button>
+        <div id="arrayFilterResult"></div>
+    </div>
+
+
+    <div class="PrimeNumberWrapper">
+        <h3>Prime Number</h3>
+        <input type="text" id="primeinputvalue" />
+        <div id="primelist"></div>
+    </div>
+
+    <div class="fiboseries">
+        <h3>Fibo Series</h3>
+        <input type="text" id="fiboinputvalue" />
+        <div id="fiboData"></div>
+    </div>
+
+
+    <div class="form-wrapper" id="formSection">
+        <h3>Form Display</h3>
+        <div class="form-item" style="padding-bottom: 10px;">
+            <label>Name:</label>
+            <input type="text" class="form-input" />
+        </div>
+        <div class="form-item" style="padding-bottom: 10px;">
+            <label>Email:</label>
+            <input type="text" class="form-input" />
+        </div>
+        <div class="form-item" style="padding-bottom: 10px;">
+            <label>Mobile:</label>
+            <input type="text" class="form-input" />
+        </div>
+        <button id="formBtn">Submit</button>
+
+        <div id="formDisplay"></div>
+    </div>
+
+    <div class="star">
+        <h3>Star Display</h3>
+        <div id="starSection"></div>
+
+        <div id="RevstarSection"></div>
+
+        <div id="nameSection"></div>
+        <div id="RevnameSection"></div>
+    </div>
+
+    <div class="spreadSectionWrapper">
+        <div id="spreadSection"></div>
+    </div>
+
+    <div class="Object-method">
+        <div id="objectValues"></div>
+    </div>
+
+
+    <div class="Table-struture">
+        <h3>Table</h3>
+        <div id="tableStructure"></div>
+    </div>
+
+    <script src="./js/new.js"></script>
+</body>
+</html>
